@@ -93,6 +93,15 @@
                         },
                         "space_id": {
                             "type": "string"
+                        },
+                        "list_name": {
+                            "type": "string"
+                        },
+                        "folder_name": {
+                            "type": "string"
+                        },
+                        "space_name": {
+                            "type": "string"
                         }
                     }
                 },
