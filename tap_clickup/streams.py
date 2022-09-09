@@ -30,7 +30,7 @@ class TimeEntries(ClickUpStream):
     """Time Entries"""
 
     name = "time_entries"
-    path = "/team/{team_id}/time_entries?include_location_names=true&assignee={userIds}"
+    path = "/team/{team_id}/time_entries?start_date=1631743200000&include_location_names=true&assignee={userIds}"
     primary_keys = ["id"]
     replication_key = None
     schema_filepath = SCHEMAS_DIR / "time_entries.json"
