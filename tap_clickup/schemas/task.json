@@ -68,6 +68,9 @@
             "date_updated": {
                 "type": ["string", "null"]
             },
+            "date_done": {
+                "type": ["string", "null"]
+            },
             "date_closed": {
                 "type": ["string", "null"]
             },
